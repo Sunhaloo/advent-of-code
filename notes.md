@@ -97,9 +97,9 @@ Using the same instruction given in the `input.txt` file; find the position of t
 
 So we have floors; we have a lot of them! Now we are trying to find the "_place_" where we are going to enter the basement which is obviously at floor `-1`. Meaning if we have:
 
-- `()())` $\Rightarrow$ this means that at character position 5, we are going to hit the basement ( "Floor _0_" )
+- `()())` $\Rightarrow$ this means that at character position 5, we are going to hit the basement ( "Floor _-1_" )
 
-### Solution: Part 1
+### Solution: Part 2
 
 ```python
 # open the text file, for read, using context manager
