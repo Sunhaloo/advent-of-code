@@ -106,7 +106,7 @@ def part2():
 
             '''
             OR we can simply do:
-            smallest_area = min([area1, area2, area3])
+            smallest_area = min([perimeter1, perimeter2, perimeter3])
             '''
 
             # total amount or ribbon
